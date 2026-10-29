@@ -1,0 +1,41 @@
+{
+  "SEED": 20261101,
+  "TRACKS": {
+    "knowledge": {
+      "lexical": "\\bknow",
+      "topic_word": "know",
+      "labeler": "author1"
+    },
+    "technology": {
+      "lexical": "\\btechnolog",
+      "topic_word": "technolog",
+      "labeler": "author2"
+    }
+  },
+  "EMBED_MODEL": "sentence-transformers/all-mpnet-base-v2",
+  "UMAP_KW": {
+    "n_neighbors": 15,
+    "n_components": 5,
+    "min_dist": 0.0,
+    "metric": "cosine"
+  },
+  "MIN_CLUSTER_SIZE": 20,
+  "LEIDEN_RESOLUTION": 1.0,
+  "DESIGN": "prototype",
+  "N_PAIRS": {
+    "T1C1": 10,
+    "T1": 10,
+    "L0": 10
+  },
+  "MIN_SAMPLES": 5,
+  "TOPIC_TAG": "mcs20_ms5",
+  "YEAR": [
+    2000,
+    2023
+  ],
+  "MIN_CITES": null,
+  "EXCLUDE_JOURNALS": [
+    "tfsc"
+  ],
+  "SHOW_AUTHORS": false
+}
